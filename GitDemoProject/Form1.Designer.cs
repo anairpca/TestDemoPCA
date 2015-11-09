@@ -36,9 +36,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(45, 40);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(110, 13);
+            this.lblName.Size = new System.Drawing.Size(150, 13);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "Hello World from muni";
+            this.lblName.Text = "Hello World from muni and Gin";
             // 
             // Form1
             // 
@@ -48,6 +48,7 @@
             this.Controls.Add(this.lblName);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
