@@ -38,7 +38,7 @@
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(150, 13);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "Hello World from muni and Gin";
+            this.lblName.Text = "Hello World from Muni and Gin !";
             // 
             // Form1
             // 
