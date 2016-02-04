@@ -29,27 +29,18 @@
         private void InitializeComponent()
         {
             this.lblName = new System.Windows.Forms.Label();
-            this.lblNew = new System.Windows.Forms.Label();
             this.btnSubmit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(45, 40);
+            this.lblName.Location = new System.Drawing.Point(45, 59);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(195, 13);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "Hello World from Muni and Gin ! What ?";
-            // 
-            // lblNew
-            // 
-            this.lblNew.AutoSize = true;
-            this.lblNew.Location = new System.Drawing.Point(45, 82);
-            this.lblNew.Name = "lblNew";
-            this.lblNew.Size = new System.Drawing.Size(119, 13);
-            this.lblNew.TabIndex = 1;
-            this.lblNew.Text = "Hello World from Jason.";
             // 
             // btnSubmit
             // 
@@ -60,13 +51,22 @@
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(45, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Hello World from Jason.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.lblNew);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblName);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -79,8 +79,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label lblNew;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Label label2;
     }
 }
 
